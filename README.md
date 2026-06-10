@@ -137,3 +137,8 @@ if L_1_KEY_ == CHAVE_TESTER_OFICIAL then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/af6094870-art/TesterCoelho-hub/refs/heads/main/README.md"))()
     end)
 else
+    -- EXECUTA O SCRIPT DA VERSÃO NORMAL (PÓS-TESTER / PÚBLICO)
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/af6094870-art/pos-TesterCoelho-hub/refs/heads/main/README.md"))()
+    end)
+end
